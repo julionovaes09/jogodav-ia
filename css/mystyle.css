@@ -1,0 +1,51 @@
+/* Reset das configurações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nosifer', serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* Definição da barra de navegação*/
+.bg-minha-cor {
+    background: rgb(191, 24, 9);
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+body { 
+    background: brown;
+}
+.quadrado {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30em;
+    height: 30em;
+}
+
+.celula {
+    
+    width:9em;
+    height:9em;
+    box-shadow: .25em .25em .25em rgb(0, 0, 0);
+    text-align: center;
+}
+
+.btn-purpura {
+background: rgb(213, 35, 19);
+}
+
+#titulo {
+    margin-top: 7em;
+}
+
+footer{
+    margin-top: 3em;
+}
